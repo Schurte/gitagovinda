@@ -1,0 +1,180 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://52cba9c1-fe97-4c01-8e57-c012db991d12",
+	"@type": "sc:Manifest",
+	"label": "[Click to edit label]",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://3adc3fe0-1884-49cb-8439-0cfb2f20dc43",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://e77f30fc-acdc-4e2b-981e-b4c77ec0a0cf",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 624,
+					"width": 1024,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://7930a42e-970e-43be-8be5-bdb07f8576a0",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ids.lib.harvard.edu/ids/iiif/18744470/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ids.lib.harvard.edu/ids/iiif/18744470",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"canonicalLinkHeader",
+												"profileLinkHeader",
+												"mirroring",
+												"rotationArbitrary",
+												"regionSquare",
+												"sizeAboveFull"
+											],
+											"qualities": [
+												"default",
+												"bitonal",
+												"gray",
+												"color"
+											],
+											"formats": [
+												"jpg",
+												"tif",
+												"png",
+												"gif",
+												"webp"
+											]
+										}
+									]
+								},
+								"height": 624,
+								"width": 1024
+							},
+							"on": "http://e77f30fc-acdc-4e2b-981e-b4c77ec0a0cf"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://018da4d2-a9a2-4735-99c8-cf63f0972738",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 838,
+					"width": 1024,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://5dfe42a4-2b1c-4955-be8c-63cd9c4f6b35",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ids.lib.harvard.edu/ids/iiif/20669298/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ids.lib.harvard.edu/ids/iiif/20669298",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"canonicalLinkHeader",
+												"profileLinkHeader",
+												"mirroring",
+												"rotationArbitrary",
+												"regionSquare",
+												"sizeAboveFull"
+											],
+											"qualities": [
+												"default",
+												"bitonal",
+												"gray",
+												"color"
+											],
+											"formats": [
+												"jpg",
+												"tif",
+												"png",
+												"gif",
+												"webp"
+											]
+										}
+									]
+								},
+								"height": 838,
+								"width": 1024
+							},
+							"on": "http://018da4d2-a9a2-4735-99c8-cf63f0972738"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://a5e1e621-8739-4381-bfbb-4ad4c2e7565b",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 2374,
+					"width": 3600,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://01c877b2-283b-401b-a55a-53ba0ce4ae43",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ids.si.edu/ids/iiif/FS-7258_41/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ids.si.edu/ids/iiif/FS-7258_41",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"supports": [
+												"sizeByH",
+												"sizeByW",
+												"sizeByForcedWh"
+											]
+										}
+									]
+								},
+								"height": 2374,
+								"width": 3600
+							},
+							"on": "http://a5e1e621-8739-4381-bfbb-4ad4c2e7565b"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": [],
+	"viewingDirection": "left-to-right"
+}
