@@ -1,0 +1,383 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://52cba9c1-fe97-4c01-8e57-c012db991d12",
+	"@type": "sc:Manifest",
+	"label": "Second Guler Gita Govinda PoC",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://3adc3fe0-1884-49cb-8439-0cfb2f20dc43",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://e77f30fc-acdc-4e2b-981e-b4c77ec0a0cf",
+					"@type": "sc:Canvas",
+					"label": "SGG 14p (Harvard Art Museum 1991.178)",
+					"height": 624,
+					"width": 1024,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://7930a42e-970e-43be-8be5-bdb07f8576a0",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ids.lib.harvard.edu/ids/iiif/18744470/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ids.lib.harvard.edu/ids/iiif/18744470",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"canonicalLinkHeader",
+												"profileLinkHeader",
+												"mirroring",
+												"rotationArbitrary",
+												"regionSquare",
+												"sizeAboveFull"
+											],
+											"qualities": [
+												"default",
+												"bitonal",
+												"gray",
+												"color"
+											],
+											"formats": [
+												"jpg",
+												"tif",
+												"png",
+												"gif",
+												"webp"
+											]
+										}
+									]
+								},
+								"height": 624,
+								"width": 1024
+							},
+							"on": "http://e77f30fc-acdc-4e2b-981e-b4c77ec0a0cf"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://018da4d2-a9a2-4735-99c8-cf63f0972738",
+					"@type": "sc:Canvas",
+					"label": "SGG 17p (Harvard Art Museum 1991.634)",
+					"height": 838,
+					"width": 1024,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://5dfe42a4-2b1c-4955-be8c-63cd9c4f6b35",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ids.lib.harvard.edu/ids/iiif/20669298/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ids.lib.harvard.edu/ids/iiif/20669298",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"canonicalLinkHeader",
+												"profileLinkHeader",
+												"mirroring",
+												"rotationArbitrary",
+												"regionSquare",
+												"sizeAboveFull"
+											],
+											"qualities": [
+												"default",
+												"bitonal",
+												"gray",
+												"color"
+											],
+											"formats": [
+												"jpg",
+												"tif",
+												"png",
+												"gif",
+												"webp"
+											]
+										}
+									]
+								},
+								"height": 838,
+								"width": 1024
+							},
+							"on": "http://018da4d2-a9a2-4735-99c8-cf63f0972738"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://a5e1e621-8739-4381-bfbb-4ad4c2e7565b",
+					"@type": "sc:Canvas",
+					"label": "SGG 19p (Smithonian Institute F2005.7)",
+					"height": 2374,
+					"width": 3600,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://01c877b2-283b-401b-a55a-53ba0ce4ae43",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ids.si.edu/ids/iiif/FS-7258_41/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ids.si.edu/ids/iiif/FS-7258_41",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"supports": [
+												"sizeByH",
+												"sizeByW",
+												"sizeByForcedWh"
+											]
+										}
+									]
+								},
+								"height": 2374,
+								"width": 3600
+							},
+							"on": "http://a5e1e621-8739-4381-bfbb-4ad4c2e7565b"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://a779b5d2-b066-437e-beb7-e66c50daf2aa",
+					"@type": "sc:Canvas",
+					"label": "SGG 24p (MRZ B24)",
+					"height": 2507,
+					"width": 3624,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://9c0d8e68-12c7-4e33-a271-93be385abe0a",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://free.iiifhosting.com/iiif/2be612302b778b94092bb3f1c5515457c282d4e33a10d2d75ed295cb1ace7e6e/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://free.iiifhosting.com/iiif/2be612302b778b94092bb3f1c5515457c282d4e33a10d2d75ed295cb1ace7e6e",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2507,
+								"width": 3624
+							},
+							"on": "http://a779b5d2-b066-437e-beb7-e66c50daf2aa"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://c262bd85-53a9-4c4e-9c4f-9f775c07fad9",
+					"@type": "sc:Canvas",
+					"label": "SGG 24d (MRZ B28)",
+					"height": 2715,
+					"width": 3624,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://b6a56b22-1e65-40aa-b064-4eb2e1326e6c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://free.iiifhosting.com/iiif/9b749e58c395f595dc1cf86f2707d9e06bfea64856067c61391a750cbfa1d5ac/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://free.iiifhosting.com/iiif/9b749e58c395f595dc1cf86f2707d9e06bfea64856067c61391a750cbfa1d5ac",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2715,
+								"width": 3624
+							},
+							"on": "http://c262bd85-53a9-4c4e-9c4f-9f775c07fad9"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://f395264a-a490-4039-bbac-870efa0c0327",
+					"@type": "sc:Canvas",
+					"label": "SGG 24pv (MRZ B24v)",
+					"height": 2448,
+					"width": 3264,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://d848f4e0-a5cc-4155-b182-ae18ddeb0fa0",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://free.iiifhosting.com/iiif/8a67e8a460992fb61140a6942dea5ea4754eb54e79c703c05f69bad25972ed02/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://free.iiifhosting.com/iiif/8a67e8a460992fb61140a6942dea5ea4754eb54e79c703c05f69bad25972ed02",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2448,
+								"width": 3264
+							},
+							"on": "http://f395264a-a490-4039-bbac-870efa0c0327"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://690a60c5-9f2e-42d7-9bf7-5a8efccb58a4",
+					"@type": "sc:Canvas",
+					"label": "SGG 24dv (MRZ B28v)",
+					"height": 2108,
+					"width": 3048,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://a3b57674-b8f3-4362-9e22-ca730d836344",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://free.iiifhosting.com/iiif/1a79d0aa00c03c9d863aa92a89bb7ee0f51925abc829fafc4028c274b117b40f/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://free.iiifhosting.com/iiif/1a79d0aa00c03c9d863aa92a89bb7ee0f51925abc829fafc4028c274b117b40f",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2108,
+								"width": 3048
+							},
+							"on": "http://690a60c5-9f2e-42d7-9bf7-5a8efccb58a4"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": [],
+	"viewingDirection": "left-to-right",
+	"thumbnail": {
+		"@id": "http://e77f30fc-acdc-4e2b-981e-b4c77ec0a0cf"
+	}
+}
